@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Finance Buddy Add Purchase</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <div id="navbar">
+            <div class="title">
+                <h1>Finance Buddy</h1>
+                <a href="index.html"></a>
+            </div>
+            <div class="nav-buttons">
+                <a href="createPurchase.html">Add New Purchase</a>
+                <a href="viewPurchases.html">View All Purchases</a>
+            </div>
+        </div>
+        <form class="create-page">
+            <div class="finance-form">
+                <h2>Log a Purchase</h2>
+                <div class="form-row">
+                    <label for="name">Purchase Name</label>
+                    <input id="name" name="name" required></input>
+                </div>
+                <div class="form-row">
+                    <label for="desc">Purchase Amount</label>
+                    <input type="number" id="desc" name="desc" required></input>
+                </div>
+                <div class="form-row">
+                    <label for="type1">Purchase Type</label>
+                    <select id="type1" name="type1">
+                        <option>Cash</option>
+                        <option>Credit</option>
+                        <option>Debit</option>
+                        <option>Check</option>
+                        <option>Crypto</option>
+                    </select>
+                </div>
+                <input type="submit" value="Submit"></input>
+            </div>
+        </form>
+    </body>
+</html>
