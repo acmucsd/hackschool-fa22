@@ -1,0 +1,41 @@
+.create-purchase-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .create-purchase-form {
+    width: 70%;
+    max-width: 400px;
+    height: 60%;
+    background: #fff7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+  }
+  
+  .create-row {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  input {
+    width: 150px;
+  }
+  .submit-button {
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
