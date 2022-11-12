@@ -16,6 +16,9 @@ Part 1 (10/13) - Intro to HTML/CSS - [Slide Deck](https://acmurl.com/hackschool-
 
 Part 2 (10/27) - JavaScript & Node.js - [Slide Deck](https://acmurl.com/hackschool-2-slides) - [Code](https://github.com/acmucsd/hackschool-fa22/tree/part2) - [Recording](https://acmurl.com/hackschool-2-video)
 
+Part 3 (11/10) - Intro to React - [Slide Deck](https://acmurl.com/hackshool-3-slides) - [Code](https://github.com/acmucsd/hackschool-fa22/tree/part3) - [Recording](https://acmurl.com/hackschool-3-video)
+
+
 
 ## Give us Feedback
 
