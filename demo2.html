@@ -1,0 +1,15 @@
+<!--This is a demo used for Hack School Part 3: Intro to React where we explain DOM manipulation-->
+<html>
+        <body>
+        <p id="demo">demo</p>
+        <p id="cat">meow</p>
+        <button type="button" onclick="clicked(this)">click</button>
+        <script>
+        function clicked(id) {
+                document.getElementById('cat').style.color = 'red';
+                id.style.color = 'red';
+                id.innerHTML = "HEY!";
+        }
+        </script>
+        </body>
+</html>
